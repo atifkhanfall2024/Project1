@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color:bisque;
+}
+#left{
+    display: flex;
+    position: relative;
+    
+    height: 100%;
+    width: 45%;
+    background-color: white;
+}
+#left #menu{
+  position: absolute;
+  padding: 20px;
+  right: 0%;
+ text-transform: uppercase;
+}
+#menu h4{
+    text-align: start;
+    transform: translate(-120%  , 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+
+   
+}
+#left #building{
+    position: absolute;
+    padding: 40px;
+}
+#building h4{
+    
+    text-align: start;
+    transform: translate(25% , -40%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#hair{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+ #hair h1{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+ #hair p{
+    opacity: .8;
+    margin-bottom: 10px;
+    
+    text-transform: uppercase;
+
+ }
+.lbottom{
+    padding: 20px;
+    position: absolute;
+    bottom: 0%;
+    height: 150px;
+    width: 100%;
+    background-color:white;
+}
+.lbottom .lline{
+    width: 100%;
+    height: 20px;
+   display: flex;
+   justify-content: space-evenly;
+    
+}
+.lbottom1{
+    
+    width: 25.33%;
+    height: 100%;
+
+}
+.lbottom1 h6{
+    height: 2px;
+    width: 100%;
+    opacity: .6;
+    background-color:black;
+}
+.lbottom1 h3{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  
+}
+.lbottom1 h5{
+    height: 2px;
+    width: 18px;
+    margin-top: 10px;
+    background-color: black;
+}
+.lbottom1 p{
+    font-size: 15px;
+    margin-top: 8px;
+    opacity: .9;
+}
+.lbottom1 h4{
+    margin-left:25px;
+    text-align: start;
+      transform:translate(0% , -55%);
+}
+
+#center{
+        height: 100%;
+        width: 35%;
+        background-image: url(https://plus.unsplash.com/premium_photo-1668319915384-3cccf7689bef?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: center;
+    
+}
+#divi{
+    padding: 20px;
+}
+#divi h2{
+    margin-left: 20px;
+}
+#divi h3{
+    margin-left: 45px;
+    top: 0%;
+    transform: translate(0% , -100%);
+    opacity: .5;
+}
+
+#fashion{
+position: absolute;
+top: 40%;
+color:white;
+transform: rotate(270deg);
+letter-spacing: 10px;
+
+
+}
+#fashion h1{
+   font-weight: 100; 
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   transform: translate(20% , -150%);
+}
+#layers{
+    position: absolute;
+    display: flex;
+    bottom: 0%;
+    height: 50px;
+    width: 100%;
+  
+}
+#layers #lc{
+    height: 100%;
+    width: 21%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#lc p{
+    color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 25px;
+    opacity: .7;
+}
+#lc h5{
+    color: white;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-align: center;
+    transform: translate(2% , -140%);
+    opacity: .7;
+    font-size: 12px;
+}
+#layers #rc{
+    
+    height: 100%;
+    width: 14%;
+    background-color: bisque;
+}
+#rc p{
+    color: black;
+    text-align: end;
+    font-size: 25px;
+    opacity: .7;
+}
+#rc h5{
+    color:black;
+    font-weight: 100;
+    transform: translate(0% ,150%);
+    text-align: center;
+   
+    opacity: .7;
+    font-size: 12px;
+
+}
+#right{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    background-color:white;
+
+}
+#right #best{
+    position: absolute;
+    top: 60%;
+    z-index: 9999;
+    color:black;
+    transform: rotate(270deg);
+}
+#best p{
+   
+    text-align: left;
+   transform: translate(20% , -450%);
+   font-size: 15px;
+   font-weight: 100;
+       
+    
+    
+}
+#rtext{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    transform: translate(-50% , -50%);
+    z-index: 9999;
+}
+#rtext p{
+    
+    opacity: .8;
+    margin-bottom: 10px;
+    
+    text-transform: uppercase;
+}
+#rtext h3{
+ margin-left: 50px;
+font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#img{
+    position: absolute;
+    bottom: 0%;
+    height: 60%;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673792686302-7555a74de717?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
